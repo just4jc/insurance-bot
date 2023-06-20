@@ -17,7 +17,7 @@
     "dotenv": "*",
     "express": "4.13.x",
     "express-session": "~1.14.0",
-    "log4js": "~0.6.36",
+    "log4js": "~3.0.0",
     "morgan": "~1.7.0",
     "node-datetime": "1.0",
     "socket.io":"*",
