@@ -1,0 +1,74 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - cloudant > debug:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:debug:20170905'
+        path: cloudant > debug
+  'npm:hawk:20160119':
+    - cloudant > cloudant-nano > follow > request > hawk:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:hawk:20160119'
+        path: cloudant > cloudant-nano > follow > request > hawk
+  'npm:hoek:20180212':
+    - cloudant > request > hawk > hoek:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:hoek:20180212'
+        path: cloudant > request > hawk > hoek
+    - cloudant > request > hawk > boom > hoek:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:hoek:20180212'
+        path: cloudant > request > hawk > boom > hoek
+    - cloudant > request > hawk > sntp > hoek:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:hoek:20180212'
+        path: cloudant > request > hawk > sntp > hoek
+    - cloudant > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:hoek:20180212'
+        path: cloudant > request > hawk > cryptiles > boom > hoek
+    - cloudant > cloudant-nano > follow > request > hawk > hoek:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:hoek:20180212'
+        path: cloudant > cloudant-nano > follow > request > hawk > hoek
+    - cloudant > cloudant-nano > follow > request > hawk > boom > hoek:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:hoek:20180212'
+        path: cloudant > cloudant-nano > follow > request > hawk > boom > hoek
+    - cloudant > cloudant-nano > follow > request > hawk > sntp > hoek:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:hoek:20180212'
+        path: cloudant > cloudant-nano > follow > request > hawk > sntp > hoek
+    - cloudant > cloudant-nano > follow > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          cloudant > cloudant-nano > follow > request > hawk > cryptiles > boom
+          > hoek
+  'npm:http-signature:20150122':
+    - cloudant > cloudant-nano > follow > request > http-signature:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:http-signature:20150122'
+        path: cloudant > cloudant-nano > follow > request > http-signature
+  'npm:ms:20170412':
+    - cloudant > debug > ms:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:ms:20170412'
+        path: cloudant > debug > ms
+  'npm:request:20160119':
+    - cloudant > cloudant-nano > follow > request:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:request:20160119'
+        path: cloudant > cloudant-nano > follow > request
+  'npm:tunnel-agent:20170305':
+    - cloudant > request > tunnel-agent:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: cloudant > request > tunnel-agent
+    - cloudant > cloudant-nano > follow > request > tunnel-agent:
+        patched: '2024-09-12T02:45:21.228Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: cloudant > cloudant-nano > follow > request > tunnel-agent
